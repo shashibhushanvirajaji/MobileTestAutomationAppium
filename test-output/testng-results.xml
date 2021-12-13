@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71747" started-at="2021-12-10T21:13:30 IST" finished-at="2021-12-10T21:14:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="71747" started-at="2021-12-10T21:13:30 IST" finished-at="2021-12-10T21:14:42 IST">
+      <class name="com.home.testcases.TapTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="setUp" is-config="true" duration-ms="31" started-at="2021-12-10T21:13:31 IST" finished-at="2021-12-10T21:13:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.home.testcases.TapTests.tapTest(java.util.Map) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tapTest(java.util.Map)[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="tapTest" duration-ms="44562" started-at="2021-12-10T21:13:31 IST" data-provider="getTestData" finished-at="2021-12-10T21:14:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{device=Samsung Galaxy S10e, os_version=9.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="tearDown" is-config="true" duration-ms="1259" started-at="2021-12-10T21:14:15 IST" finished-at="2021-12-10T21:14:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="setUp" is-config="true" duration-ms="2" started-at="2021-12-10T21:14:17 IST" finished-at="2021-12-10T21:14:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.home.testcases.TapTests.tapTest(java.util.Map) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tapTest(java.util.Map)[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="tapTest" duration-ms="23958" started-at="2021-12-10T21:14:17 IST" data-provider="getTestData" finished-at="2021-12-10T21:14:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{device=Google Pixel 3, os_version=9.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.home.testcases.TapTests@77ec78b9]" name="tearDown" is-config="true" duration-ms="1291" started-at="2021-12-10T21:14:41 IST" finished-at="2021-12-10T21:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.home.testcases.TapTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
